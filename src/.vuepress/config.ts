@@ -78,8 +78,10 @@ export default defineUserConfig({
   metaLocales: {
 
   },
-  
+
   editLink: false,
+
+  contributors: false,
 
   encrypt: {
     config: {
