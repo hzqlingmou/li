@@ -1,0 +1,31 @@
+{
+  "name": "vuepress-theme-hope-template",
+  "version": "2.0.0",
+  "description": "A project of vuepress-theme-hope",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "docs:build": "vuepress-vite build src",
+    "docs:clean-dev": "vuepress-vite dev src --clean-cache",
+    "docs:dev": "vuepress-vite dev src",
+    "docs:update-package": "pnpm dlx vp-update"
+  },
+  "devDependencies": {
+    "@vuepress/bundler-vite": "2.0.0-rc.9",
+    "@waline/client": "^3.3.0",
+    "artplayer": "^5.1.6",
+    "chart.js": "^4.4.3",
+    "dashjs": "^4.7.4",
+    "flowchart.ts": "^3.0.0",
+    "hls.js": "^1.5.13",
+    "markmap-lib": "^0.17.0",
+    "markmap-toolbar": "^0.17.0",
+    "markmap-view": "^0.17.0",
+    "mpegts.js": "^1.7.3",
+    "vidstack": "^1.11.30",
+    "vue": "^3.4.34",
+    "vuepress": "2.0.0-rc.9",
+    "vuepress-plugin-components": "2.0.0-rc.52",
+    "vuepress-theme-hope": "2.0.0-rc.33"
+  }
+}
