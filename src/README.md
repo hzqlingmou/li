@@ -6,11 +6,11 @@ heroImage: li.png
 bgImage: false
 bgImageDark: false
 heroText: 《李语》
-tagline: 优秀班主任语录
+tagline:  优秀班主任语录
 actions:
   - text: 开始学习
     icon: lightbulb
-    link: /start
+    link: /yulu/
     type: primary
 
 features:
