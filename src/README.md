@@ -29,6 +29,10 @@ features:
   - title: 训人篇
     details: 训人发言
     link: /yulu/xunren
+
+  - title: 形象墙
+    details: 牢李形象
+    link: /face/
      
 
 

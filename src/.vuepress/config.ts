@@ -67,6 +67,11 @@ export default defineUserConfig({
       },
     ]
   },
+  {
+    text: "形象",
+    icon: "laptop-code",
+    link: "/face/",
+  }
   ],
 
   // 页脚
