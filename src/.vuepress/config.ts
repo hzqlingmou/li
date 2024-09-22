@@ -86,11 +86,22 @@ export default defineUserConfig({
   encrypt: {
     config: {
       "/yulu/": ["yi"],
+      "/face/": ["yi"],
     },
   },
 
   plugins: {
     blog: false,
+    markdownImage: {
+      // 启用 figure
+      figure: true,
+      // 启用图片懒加载
+      lazyload: true,
+      // 启用图片标记
+      mark: true,
+      // 启用图片大小
+      size: true,
+    },
     comment: {
        provider: "Waline",
        serverURL: "https://waline.escateam.icu",
